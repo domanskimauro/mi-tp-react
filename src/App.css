@@ -1,0 +1,252 @@
+body {
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(138, 253, 153); /* Color verde */
+  padding-top: 10vh; /* Espacio para la barra de navegación fija */
+}
+
+.Titulo-Principal {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 5rem; /* Tamaño de fuente más grande */
+  color: #333; /* Color del texto */
+  text-shadow: 8px 6px 4px rgba(165, 21, 146, 0.8); /* Sombra de texto blanca */
+  margin: 5rem 0; /* Márgenes para separación */
+}
+
+.page-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 5vh 7%;
+  background-color: rgb(203, 145, 236); /* Color violeta */
+  border-radius: 1rem; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.header-content {
+  text-align: center;
+  padding: 2rem 10;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  flex: 1;
+}
+
+.navbar li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  padding: 1rem 0;
+  font-size: 1.5rem; /* Tamaño de la fuente */
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 40rem; /* Ajusta la distancia desde la parte inferior usando rem */
+  right: 5rem; /* Ajusta la distancia desde el lado derecho usando rem */
+  z-index: 1000;
+}
+
+.whatsapp-float img {
+  width: 5rem; /* Ajusta el tamaño del ícono usando rem */
+  height: 5rem; /* Ajusta el tamaño del ícono usando rem */
+  border-radius: 50%; /* Para hacer el ícono redondo */
+}
+
+.image-section {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  margin: 4rem 0;
+}
+
+.image-container {
+  display: flex;
+  gap: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: auto; /* Ajusta el ancho al 100% */
+}
+
+.image-container img {
+  width: 45%; /* Establece el ancho de las imágenes */
+  max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+  border-radius: 2rem;
+}
+
+.image-section img {
+  flex-basis: calc(100% - 1rem); /* Define el tamaño de la imagen en función del ancho del contenedor */
+  margin: 0.5rem; /* Agrega un margen entre las imágenes */
+}
+
+#inicio p {
+  font-size: 1.4rem; /* Tamaño de la fuente */
+  line-height: 2; /* Interlineado */
+  justify-content: center;
+  margin-bottom: 1rem; /* Margen inferior */
+  text-align: justify; /* Justificar el texto */
+  border: 2px solid rgb(204, 204, 204); /* Borde sólido */
+  padding: 1rem; /* Espacio interno */
+  border-radius: 1rem; /* Borde redondeado */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.divider {
+  border-top: 0.2rem dashed rgb(51, 51, 51);
+  margin: 2rem 0;
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(to bottom right, rgb(203, 145, 236), rgb(138, 253, 153)); /* Degradado de azul a verde */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+footer form {
+  font-family: 'Dancing Script', cursive;
+  max-width: 80%; /* Ajustado a 80% para evitar que los campos sobresalgan */
+  font-size: 1.5rem; /* Tamaño de la fuente */
+  margin: auto;
+  text-align: center;
+  padding: 4rem;
+  background-color: #fff; /* Color de fondo blanco */
+  border: 0.2rem solid #ccc;
+  border-radius: 1rem; /* Bordes redondeados */
+}
+
+footer form label {
+  display: block;
+  margin: 0
+}
+
+footer form input,
+footer form textarea {
+  width: 80%;
+  box-sizing: border-box; /* Asegura que el relleno y borde se incluyan en el ancho total */
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.5rem; /* Bordes redondeados */
+  font-size: 1.5rem; /* Tamaño de la fuente */
+}
+
+footer form button {
+  width: 80%;
+  font-size: 1.4rem; /* Tamaño de la fuente */
+  font-family: 'Dancing Script', cursive;
+  padding: 2rem;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  border: none;
+  border-radius: 0.5rem; /* Bordes redondeados */
+  cursor: pointer;
+}
+
+footer form button:hover {
+  background-color: #555;
+}
+
+#contacto {
+  scroll-margin-top: 15vh; /* Se redirige a donde comienza el contacto */
+}
+
+#contacto h2 {
+  font-size: 2.5rem; /* Tamaño de la fuente */
+  font-family: 'Dancing Script', cursive;
+  text-align: center; /* Alineación del texto */
+  color: #333; /* Color del texto */
+  margin-top: auto; /* Margen superior */
+  margin-bottom: 2rem; /* Margen inferior */
+  font-weight: bold; /* Peso de la fuente */
+  letter-spacing: 10px; /* Espaciado entre letras */
+  padding-bottom: 2px; /* Relleno inferior */
+}
+
+#inicio h2 {
+  font-size: 2rem; /* Tamaño de la fuente */
+  font-weight: bold; /* Grosor de la fuente */
+  color: #333; /* Color de la fuente */
+  text-align: center; /* Alineación del texto */
+  margin: 20px 0; /* Espaciado superior e inferior */
+  line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+  padding: 10px; /* Espaciado interno */
+  border: 2px solid #ccc; /* Borde */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#intro {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.5rem; /* Tamaño de fuente más grande */
+  color: #333; /* Color del texto */
+  margin: 1rem 0; /* Márgenes para separación */
+}
+
+#seguime-en {
+  font-size: 2rem; /* Tamaño de la fuente */
+  font-family: 'Dancing Script', cursive;
+  color: #333; /* Color del texto */
+}
+
+.social-icons {
+  margin-top: 2rem; /* Margen superior del 2% del tamaño del viewport */
+  text-align: center; /* Centrar los íconos */
+  margin-block-end: 4rem;
+}
+
+.social-icons a {
+  margin: 0 2%; /* Margen horizontal del 2% */
+  display: inline-block;
+}
+
+.social-icons img.social-icon {
+  width: 4rem; /* Ancho del ícono al 40% del tamaño original */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+.location-icon {
+  background-color: #333;
+  padding: 0.5em 0.1em;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 0.8em;
+  }
+
+#derechos {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.5rem; /* Tamaño de fuente más grande */
+  color: #533; /* Color del texto */
+  text-shadow: 4px 4px 6px rgba(2, 85, 71, 0.8); /* Sombra de texto blanca */
+  margin: 1rem 0; /* Márgenes para separación */
+}
+
+#villa {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.5rem; /* Tamaño de fuente más grande */
+  color: #333; /* Color del texto */
+  margin: 1rem 0; /* Márgenes para separación */
+}
